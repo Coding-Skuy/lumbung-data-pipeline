@@ -1,0 +1,21 @@
+# Data (jangan commit data mentah)
+data/
+*.csv
+*.parquet
+*.db
+*.duckdb
+
+# Python pipeline
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Env dan rahasia
+.env
+.env.*
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
